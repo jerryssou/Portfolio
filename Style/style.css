@@ -1,5 +1,10 @@
+body{
+    color:bisque;
+}
+
 h1 {
     font-family:'Courier New', Courier, monospace;
+    
 }
 
 .back-video {
@@ -14,4 +19,14 @@ h1 {
         width: auto;
         height: 100%;
     }
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
