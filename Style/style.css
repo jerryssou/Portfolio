@@ -1,18 +1,28 @@
-html, body {
-    height: 100%;
-    margin: 0;
+header{
+    font-size: 35px;
 }
+
+.logo{
+    justify-content: right;
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: -950px;
+    margin-bottom: 350px;
+    width: 200px;
+}
+
 
 body {
     color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: black;
 }
 
 main {
     font-family: 'Courier New', Courier, monospace;
-    flex: 1;
 }
 
 .back-video {
@@ -22,6 +32,10 @@ main {
     z-index: -1;
 }
 
+h1,h2,h3{
+    color:lightsteelblue
+}
+
 @media (max-aspect-ratio: 16/9) {
     .back-video {
         width: auto;
@@ -29,23 +43,62 @@ main {
     }
 }
 
-.end {
-    margin-top: 7%;
-}
+
+
 
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 40px; 
+    gap: 150px;
+    margin-top: 60px; 
+    margin-bottom: 60px; 
 }
 
-.image-container img {
-    transition: all 0.3s ease;
+img {
     border-radius: 15px;
     width: 350px; 
 }
 
-.image-container img:hover {
-    transform: scale(1.22) translateY(-8px);
+.first-picture:hover {
+    transform: scale(1.18) translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.middle-picture:hover {
+    transform: scale(1.18) translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.second-picture:hover {
+    transform: scale(1.18) translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+
+.first-picture,
+.middle-picture,
+.second-picture {
+    position: relative;
+}
+
+.picture-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.first-picture:hover .picture-text,
+.middle-picture:hover .picture-text,
+.second-picture:hover .picture-text {
+    opacity: 1;
 }
