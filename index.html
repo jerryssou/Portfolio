@@ -1,69 +1,70 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="Style/style.css">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jerryssou Portfolio</title>
+	<link rel="stylesheet" href="Style/style.css">
 </head>
 
-<body>
-	<header>
-		<a href="index.html">
-			<img class="logo" src="Image/logo.png" alt="logo">
-		</a>
-		<p>Jerryssou Portfolio</p>
-	</header>
-	<main>
+<body class="home">
+	<nav class="nav">
+		<div class="nav-left">
+			<a href="index.html" class="active">HOME</a>
+			<a href="Docs/aboutme.html">ABOUT ME</a>
+		</div>
+		<a href="index.html" class="brand">Jerryssou Portfolio</a>
+		<div class="nav-right">
+			<a href="Docs/gallery.html">GALLERY</a>
+			<a href="Docs/sourcegallery.html">SOURCE GALLERY</a>
+		</div>
+	</nav>
 
-		<video autoplay loop muted plays-inline class="back-video">
+	<section class="hero">
+		<video autoplay loop muted playsinline class="hero-video" aria-hidden="true">
 			<source src="Image/alyx_background.webm" type="video/webm">
 		</video>
-		<h2> I am Jerryssou, a french level designer since 2024, mainly working on Source 1 and beginning on Source 2.
-		</h2>
-		<h2>I also own the level design media Source Gallery, which is one of the most popular in the world.</h2>
-		<h2>You can see the different projects that I've been working on for the past years by clicking on the middle
-			picture.</h2>
-
-		<div class="image-container">
-
-			<div class="first-picture">
-				<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3668479326">
-					<img src="Image/pngegg(2).png" alt="C26V2">
+		<h1 class="hero-title hero-fade">Jerryssou Portfolio</h1>
+		<p class="hero-subtitle hero-fade">Source Level Designer</p>
+		<button class="scroll-arrow hero-fade" type="button" aria-label="Scroll down">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+				<path d="M6 9l6 6 6-6" />
+			</svg>
+		</button>
+	</section>
+	<div class="home-content">
+		<main class="image-container">
+			<div class="card">
+				<a href="Docs/aboutme.html">
+					<img src="Image/about_me.png" alt="About me">
 				</a>
-				<p class="picture-text">C26V2, my first project to have been published on the Steam Workshop after 7
-					months of work</p>
+				<p class="picture-text">About me</p>
 			</div>
 
-
-
-			<div class="middle-picture">
+			<div class="card">
 				<a href="Docs/gallery.html">
-					<img src="Image/hammer++.png" alt="The gallery">
+					<img src="Image/hammer++.png" alt="Gallery">
 				</a>
-				<p class="picture-text">Hammer ++ is the tool that I use everyday to make maps</p>
+				<p class="picture-text">Hammer++ is the tool that I use every day to make maps</p>
 			</div>
 
-
-
-
-			<div class="second-picture">
-				<a href="https://x.com/sourcegallery1">
-					<img src="Image/Source_Gallery.jpg">
+			<div class="card">
+				<a href="Docs/sourcegallery.html">
+					<img src="Image/Source_Gallery.jpg" alt="Source Gallery">
 				</a>
-				<p class="picture-text">Source Gallery is present on X, Tik Tok and Pinterest</p>
+				<p class="picture-text">Source Gallery is present on X and TikTok</p>
 			</div>
-		</div>
+		</main>
 
 		<footer>
-			<div class="end">
-				<p>You can contact me by email at the following address: <a
-						href="mailto:jerryssou@gmail.com">jerryssou@gmail.com</a></p>
-				<p>(This site is under construction, changes are made daily)</p>
-			</div>
+			<p>You can contact me by email at the following address: <a href="mailto:jerryssou@gmail.com">jerryssou@gmail.com</a></p>
+			<p>(This site is under construction, changes are made daily)</p>
 		</footer>
-	</main>
+	</div>
 
+
+	<script src="Script/main.js"></script>
 </body>
 
 </html>

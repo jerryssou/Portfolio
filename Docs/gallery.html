@@ -1,141 +1,287 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="../Style/style_gallery.css">
 	<meta charset="UTF-8">
-	<title>Jerryssou Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery | Jerryssou Portfolio</title>
+	<link rel="stylesheet" href="../Style/style.css">
 </head>
 
 <body>
-	<header>
-		<a href="../index.html">
-			<img class="logo" src="../Image/logo.png" alt="logo">
-		</a>
-		<p>Jerryssou Portfolio</p>
-	</header>
-	<main>
+	<nav class="nav">
+		<div class="nav-left">
+			<a href="../index.html">HOME</a>
+			<a href="aboutme.html">ABOUT ME</a>
+		</div>
+		<a href="../index.html" class="brand">Jerryssou Portfolio</a>
+		<div class="nav-right">
+			<a href="gallery.html" class="active">GALLERY</a>
+			<a href="sourcegallery.html">SOURCE GALLERY</a>
+		</div>
+	</nav>
 
-		<video autoplay loop muted plays-inline class="back-video">
-			<source src="../Image/alyx_background.webm" type="video/webm">
-		</video>
-		<h1>Sector 1045</h1>
-		<p>Sector 1045 is a Half-Life 2 Roleplay map project with the main goal being to add a new awe-inspiring and
-			designing ambience like seen in Half-Life: Alyx, while still staying true to the original game this game-mode
-			Was made for. A well-thought city that merges every important infrastructure with as little time of walking as possible
-			possible between each one of them will help servers to achieve the continuous interactions between players
-			that makes the
-			Charm of this game mode. Altogether, these traits
-			that I consider as unexploited and barely even tried in the HL2RP genre are aiming to
-			create the perfect map that can be used by any server,
-			Whether they have a lot of players or not. The idea to create this map came to me after I've been working on
-			C26V2. I always dreamed of having my very own Half-Life 2 roleplay map, and I've also been heavily inspired
-			By the early concept are made for Half-Life: Alyx by Tristan Reidford. This project was
-			started on the 17/05/2026 and is still in
-			development.</p>
-		<a href="../Image/sector1045_1.png">
-			<img src="../Image/sector1045_1.png">
-		</a>
-		<a href="../Image/sector1045_2.png">
-			<img src="../Image/sector1045_2.png">
-		</a>
-		<h1>City 26 V2</h1>
-		<p>City 26 V2 is the edit of an already existing Half-Life 2 roleplay map. This map was used by Deep Gaming
-			Roleplay, the biggest Half-Life 2 Roleplay Impulse Garry's Mod server. This edit took me 7 months to finish,
-			From the 28th July, 2025 to the 22nd February, 2026. After the large-scale playtest that was conducted on
-			This server during 2 weeks, I understood that some edits were necessary for the map to be perfect. That's why
-			I started working on it again during the summer 2026 for Deep Gaming 2.</p>
-		<a href="../Image/c26v2_4.png">
-			<img src="../Image/c26v2_4.png">
-		</a>
-		<a href="../Image/c26v2_1.png">
-			<img src="../Image/c26v2_1.png">
-		</a>
-		<a href="../Image/c26v2_3.png">
-			<img src="../Image/c26v2_3.png">
-		</a>
-		<a href="../Image/c26v2_2.png">
-			<img src="../Image/c26v2_2.png">
-		</a>
-		<h1>New York City Neighborhood</h1>
-		<p>After editing an entire school for a School RP server, I decided to recreate a little classic New York
-			Neighborhood on the outside of it, for the students to rest and have fun after their day. This map was
-			started on the 1st April, 2026 and finished on the 22nd April, 2026.</p>
-		<a href="../Image/school_2.png">
-			<img src="../Image/school_2.png">
-		</a>
-		<a href="../Image/school_1.png">
-			<img src="../Image/school_1.png">
-		</a>
-		<a href="../Image/school_3.png">
-			<img src="../Image/school_3.png">
-		</a>
-		<a href="../Image/school_4.png">
-			<img src="../Image/school_4.png">
-		</a>
-		<h1>Apocalypse Roleplay Map (DayZ, St. Petersbourg)</h1>
-		<p>This map was supposed to be used for a DayZ project on Garry's Mod, but it ended up being cancelled. Thanks to
-			another project, I can now work on it again to make her fit a new theme, a post-apocalyptic urban area
-			located in Saint Petersbourg, Russia. This map was started on the 9th of April, 2026 for the Day Z project and
-			started back on the 1st July, 2026.</p>
-		<a href="../Image/dayz_1.png">
-			<img src="../Image/dayz_1.png">
-		</a>
-		<a href="../Image/dayz_2.png">
-			<img src="../Image/dayz_2.png">
-		</a>
-		<a href="../Image/dayz_3.png">
-			<img src="../Image/dayz_3.png">
-		</a>
-		<a href="../Image/dayz_4.png">
-			<img src="../Image/dayz_4.png">
-		</a>
-		<h1>Half-Life: Alyx Source 1 Project</h1>
-		<p>This project is, by far, the most ambitious that I have started. More than 4 months of work have been put to
-			import Source 2 assets to Source 1. The project has also taken different directions, from a Roleplay map to a
-			classic Sandbox one or a scenic one.</p>
-		<a href="../Image/hla_3.png">
-			<img src="../Image/hla_3.png">
-		</a>
-		<a href="../Image/hla_1.png">
-			<img src="../Image/hla_1.png">
-		</a>
-		<a href="../Image/hla_2.png">
-			<img src="../Image/hla_2.png">
-		</a>
-		<a href="../Image/hla_4.png">
-			<img src="../Image/hla_4.png">
-		</a>
+	<video autoplay loop muted playsinline class="page-video" aria-hidden="true">
+		<source src="../Image/alyx_background.webm" type="video/webm">
+	</video>
 
-		<h1>2 Hours Challenges</h1>
-		<p>2 hours Challenge is a competition organised by the Hammer Editor Development Group. The goal is to make a
-			make with a time limit of 2 hours (except for the Hoffman House, which is the 3rd picture) on a given theme
-			and picture. These little competitions were organised weekly in 2025, and I was participating at most of
-			them.</p>
-		<a href="../Image/2hour_1.png">
-			<img src="../Image/2hour_1.png">
-		</a>
-		<a href="../Image/2hour_2.png">
-			<img src="../Image/2hour_2.png">
-		</a>
-		<a href="../Image/2hour_3.png">
-			<img src="../Image/2hour_3.png">
-		</a>
-		<a href="../Image/2hour_4.png">
-			<img src="../Image/2hour_4.png">
-		</a>
-		<h1>Else</h1>
-
-
-		<footer>
-			<div class="end">
-				<p>You can contact me by email at the following address: <a
-						href="mailto:jerryssou@gmail.com">jerryssou@gmail.com</a></p>
-				<p>(This site is under construction, changes are made daily)</p>
+	<main class="page">
+		<section class="map">
+			<h2>Sector 1045</h2>
+			<p>Sector 1045 is a upcoming Half-Life 2 modification. This map was, at first, supposed to be a Roleplay map for Garry's Mod, which idea to create it came to me after
+				working on C26V2. I always dreamed of having my very own Half-Life 2 Roleplay map, and I have also been
+				heavily inspired by the early concept art made for Half-Life: Alyx by Tristan Reidford. This project was
+				started on 17/05/2026 and is still in development.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/sector1045_1.png" alt="Sector 1045, screenshot 1" loading="lazy">
+						<img src="../Image/sector1045_3.png" alt="Sector 1045, screenshot 2" loading="lazy">
+						<img src="../Image/sector1045_2.png" alt="Sector 1045, screenshot 3" loading="lazy">
+						<img src="../Image/sector1045_4.png" alt="Sector 1045, screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
 			</div>
-		</footer>
+		</section>
+
+		<section class="map">
+			<h2>City 26 V2</h2>
+			<p>City 26 V2 is the edit of an already existing Half-Life 2 Roleplay map. This map was used by Deep Gaming
+				Roleplay, the biggest Half-Life 2 Roleplay Impulse server on Garry's Mod. This edit took me 7 months to
+				finish, from the 28th of July, 2025 to the 22nd of February, 2026. After the large-scale playtest that
+				was conducted on this server for 2 weeks, I understood that some edits were necessary for the map to be
+				perfect. That's why I started working on it again during the summer of 2026 for Deep Gaming 2.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/c26v2_4.png" alt="City 26 V2, screenshot 1" loading="lazy">
+						<img src="../Image/c26v2_1.png" alt="City 26 V2, screenshot 2" loading="lazy">
+						<img src="../Image/c26v2_3.png" alt="City 26 V2, screenshot 3" loading="lazy">
+						<img src="../Image/c26v2_2.png" alt="City 26 V2, screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>New York City Neighborhood</h2>
+			<p>After editing an entire school for a School RP server, I decided to recreate a little classic New York
+				neighborhood outside of it, for the students to rest and have fun after their day. This map was started
+				on the 1st of April, 2026 and finished on the 22nd of April, 2026.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/school_2.png" alt="New York City Neighborhood, screenshot 1" loading="lazy">
+						<img src="../Image/school_1.png" alt="New York City Neighborhood, screenshot 2" loading="lazy">
+						<img src="../Image/school_3.png" alt="New York City Neighborhood, screenshot 3" loading="lazy">
+						<img src="../Image/school_4.png" alt="New York City Neighborhood, screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>Apocalypse Roleplay Map (DayZ, St. Petersburg)</h2>
+			<p>This map was supposed to be used for a DayZ project on Garry's Mod, but that project ended up being
+				cancelled. Thanks to another project, I can now work on it again to make it fit a new theme: a
+				post-apocalyptic urban area located in Saint Petersburg, Russia. This map was started on the 9th of
+				April, 2026 for the DayZ project and resumed on the 1st of September, 2026, for the second project.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/dayz_1.png"
+							alt="Apocalypse Roleplay Map (DayZ, St. Petersburg), screenshot 1" loading="lazy">
+						<img src="../Image/dayz_2.png"
+							alt="Apocalypse Roleplay Map (DayZ, St. Petersburg), screenshot 2" loading="lazy">
+						<img src="../Image/dayz_3.png"
+							alt="Apocalypse Roleplay Map (DayZ, St. Petersburg), screenshot 3" loading="lazy">
+						<img src="../Image/dayz_4.png"
+							alt="Apocalypse Roleplay Map (DayZ, St. Petersburg), screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>Half-Life: Alyx Source 1 Project</h2>
+			<p>This project is, by far, the most ambitious one that I have started. More than 4 months of work have been
+				put into importing Source 2 assets into Source 1. The project has also taken different directions, from
+				a Roleplay map to a classic Sandbox one or a scenic one.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/hla_3.png" alt="Half-Life: Alyx Source 1 Project, screenshot 1"
+							loading="lazy">
+						<img src="../Image/hla_1.png" alt="Half-Life: Alyx Source 1 Project, screenshot 2"
+							loading="lazy">
+						<img src="../Image/hla_2.png" alt="Half-Life: Alyx Source 1 Project, screenshot 3"
+							loading="lazy">
+						<img src="../Image/hla_4.png" alt="Half-Life: Alyx Source 1 Project, screenshot 4"
+							loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>2 Hours Challenges</h2>
+			<p>The 2 Hours Challenge is a competition organised by the Hammer Editor Development Group. The goal is to
+				make a map within a time limit of 2 hours (except for the Hoffman House, which is the 3rd picture) based
+				on a given theme and picture. These little competitions were organised weekly in 2025, and I took part
+				in most of them.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/2hour_1.png" alt="2 Hours Challenges, screenshot 1" loading="lazy">
+						<img src="../Image/2hour_2.png" alt="2 Hours Challenges, screenshot 2" loading="lazy">
+						<img src="../Image/2hour_3.png" alt="2 Hours Challenges, screenshot 3" loading="lazy">
+						<img src="../Image/2hour_4.png" alt="2 Hours Challenges, screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>Outland Desert</h2>
+			<p>Outland Desert was started in October 2026 for a server created by a friend of mine. This map reuses the
+				Outland and the Sewers from City 26 V2 with heavy edits, and the main changes being the lighting and the
+				removal of a large portion of the Outland.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/desert_outland_1.png" alt="Desert Outland, screenshot 1" loading="lazy">
+						<img src="../Image/desert_outland_3.png" alt="Desert Outland, screenshot 2" loading="lazy">
+						<img src="../Image/desert_outland_4.png" alt="Desert Outland, screenshot 3" loading="lazy">
+						<img src="../Image/desert_outland_2.png" alt="Desert Outland, screenshot 4" loading="lazy">
+						<img src="../Image/desert_outland_5.png" alt="Desert Outland, screenshot 5" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
+		<section class="map">
+			<h2>Other projects</h2>
+			<p>Here are a couple of other projects that have been started over the years, some of them still being worked on as of today.</p>
+			<div class="carousel">
+				<button class="icon-btn carousel-btn carousel-prev" type="button" aria-label="Previous images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M15 18l-6-6 6-6" />
+					</svg></button>
+				<div class="track">
+					<div class="track-row">
+						<img src="../Image/else_1.png" alt="Desert Outland, screenshot 1" loading="lazy">
+						<img src="../Image/else_3.png" alt="Desert Outland, screenshot 2" loading="lazy">
+						<img src="../Image/else_4.png" alt="Desert Outland, screenshot 3" loading="lazy">
+						<img src="../Image/else_2.png" alt="Desert Outland, screenshot 4" loading="lazy">
+					</div>
+				</div>
+				<button class="icon-btn carousel-btn carousel-next" type="button" aria-label="Next images"><svg
+						viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+						stroke-linejoin="round">
+						<path d="M9 18l6-6-6-6" />
+					</svg></button>
+			</div>
+		</section>
+
 	</main>
 
+	<footer>
+		<p>You can contact me by email at the following address: <a
+				href="mailto:jerryssou@gmail.com">jerryssou@gmail.com</a></p>
+		<p>(This site is under construction, changes are made daily)</p>
+	</footer>
+
+	<div class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+		<button class="icon-btn lightbox-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24" fill="none"
+				stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<path d="M18 6L6 18M6 6l12 12" />
+			</svg></button>
+		<button class="icon-btn lightbox-prev" type="button" aria-label="Previous image"><svg viewBox="0 0 24 24"
+				fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<path d="M15 18l-6-6 6-6" />
+			</svg></button>
+		<figure class="lightbox-figure">
+			<img class="lightbox-img" alt="">
+		</figure>
+		<button class="icon-btn lightbox-next" type="button" aria-label="Next image"><svg viewBox="0 0 24 24"
+				fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<path d="M9 18l6-6-6-6" />
+			</svg></button>
+	</div>
+
+
+	<script src="../Script/main.js"></script>
 </body>
 
 </html>
